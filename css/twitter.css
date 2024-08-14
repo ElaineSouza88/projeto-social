@@ -1,4 +1,4 @@
-@charset "UFT-8";
+@charset "UTF-8";
 
 * {
     margin: 0px;
@@ -11,7 +11,7 @@ img {
 } 
 
 body {
-    background-image: linear-gradient(to right, #910AF8, #DC04E2, #FC02CC, #FF0A61, #FF3626, rgb(245, 161, 5));
+    background-color: #28241f;
 }
 
 ::-webkit-scrollbar {
@@ -24,11 +24,12 @@ a {
     text-align: center;
     text-decoration: none;
     font-size: 20px;
-    background-image: linear-gradient(to right, #910AF8, #DC04E2, #FC02CC, #FF0A61, #FF3626, rgb(245, 161, 5));
+    background-color: #1f23288c;
     color: white;
     margin: -4px;
     padding: 20px;
 }
 a:hover {
     text-decoration: underline;
+    background-color: black;
 }
